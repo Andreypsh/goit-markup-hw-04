@@ -423,7 +423,8 @@ img {
   fill: currentColor;
 }
 
-.link-socmer:hover {
+.link-socmer:hover,
+.link-socmer:focus{
   background: var(--accent-color);
   color: var(--white-color);
 }
@@ -440,7 +441,8 @@ img {
   margin-left: 30px;
   margin-bottom: 30px;
 }
-.product-list .item:hover {
+.product-list .item:hover,
+.product-list .item:focus{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -467,7 +469,8 @@ img {
   height: 100%;
 }
 
-.product-link:hover {
+.product-link:hover,
+.product-link:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -516,7 +519,8 @@ img {
   align-items: center;
   cursor: pointer;
 }
-.client-item:hover {
+.client-item:hover,
+.client-item:focus{
   border-color: var(--accent-color);
 }
 
@@ -539,7 +543,8 @@ img {
   height: 60px;
   fill: currentColor;
 }
-.client-link:hover {
+.client-link:hover,
+.client-link:focus{
   color: var(--accent-color);
 }
 /* footer */
@@ -649,7 +654,8 @@ img {
   fill: currentColor;
 }
 
-.socmer-footer-link:hover {
+.socmer-footer-link:hover,
+.socmer-footer-link:focus {
   background-color: var(--accent-color);
 }
 /* text-decoration: none; Убираем подчёркивание */
