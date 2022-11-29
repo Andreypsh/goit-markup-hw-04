@@ -384,13 +384,13 @@ img {
   padding-bottom: 30px;
 }
 /* Соціальні мережі */
-.socmer {
+.social {
   display: flex;
   margin-top: 30px;
   padding: 0;
   justify-content: center;
 }
-.link-socmer {
+.link-social {
   display: flex;
   cursor: pointer;
   width: 100%;
@@ -401,7 +401,7 @@ img {
   color: var(--icons-color);
 }
 
-.socmer-list {
+.social-list {
   display: flex;
   height: 44px;
   width: 44px;
@@ -412,19 +412,19 @@ img {
   cursor: pointer;
   /* var(--white-color); */
 }
-.socmer-list + .socmer-list {
+.social-list + .social-list {
   display: flex;
   margin-left: 10px;
 }
 
-.socmer-list-icon {
+.social-list-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.link-socmer:hover,
-.link-socmer:focus{
+.link-social:hover,
+.link-social:focus{
   background: var(--accent-color);
   color: var(--white-color);
 }
@@ -555,7 +555,7 @@ img {
 }
 
 .container-logo-adress {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
@@ -572,10 +572,10 @@ img {
   font-style: normal;
   text-decoration: none;
 }
-.site-address {
+/* .site-address {
   display: flex;
   display: flex;
-}
+} */
 
 .site-address .item + .item {
   margin-top: 12px;
@@ -606,7 +606,7 @@ img {
   flex-direction: column;
 }
 
-.socmer-footer-title {
+.social-footer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -616,13 +616,13 @@ img {
   color: #ffffff;
 }
 
-.socmer-footer-list {
+.social-footer-list {
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.socmer-footer-item {
+.social-footer-item {
   display: flex;
   height: 44px;
   width: 44px;
@@ -633,11 +633,11 @@ img {
   cursor: pointer;
 }
 
-.socmer-footer-item + .socmer-footer-item {
+.social-footer-item + .social-footer-item {
   margin-left: 10px;
 }
 
-.socmer-footer-link {
+.social-footer-link {
   display: flex;
   cursor: pointer;
   width: 100%;
@@ -648,14 +648,14 @@ img {
   color: var(--white-color);
 }
 
-.socmer-footer-icon {
+.social-footer-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.socmer-footer-link:hover,
-.socmer-footer-link:focus {
+.social-footer-link:hover,
+.social-footer-link:focus {
   background-color: var(--accent-color);
 }
 /* text-decoration: none; Убираем подчёркивание */
